@@ -36,6 +36,9 @@ jobs:
       - name: Build
         working-directory: starter-project-with-webpack
         run: npm run build
+        env:
+          NODE_ENV: production
+          BASE_PATH: /Intermediate_Asah/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
