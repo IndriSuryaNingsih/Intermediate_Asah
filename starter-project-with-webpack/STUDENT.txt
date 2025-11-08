@@ -6,5 +6,5 @@ MAP_SERVICE_API_KEY=<api_key>
 # Contoh: https://your-username.github.io/starter-project-with-webpack
 # Atau: https://your-app-name.netlify.app
 # Atau: https://your-app-name.web.app
-DEPLOY_URL=https://your-deployment-url.com
+DEPLOY_URL=https://indrisuryaningsih.github.io/Intermediate_Asah/
 REPO_URL=https://github.com/IndriSuryaNingsih/Intermediate_Asah.git
