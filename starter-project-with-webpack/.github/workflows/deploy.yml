@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -33,12 +33,18 @@ jobs:
         working-directory: starter-project-with-webpack
         run: npm ci
 
-      - name: Build
+      - name: Build project
         working-directory: starter-project-with-webpack
         run: npm run build
         env:
           NODE_ENV: production
-          BASE_PATH: /Intermediate_Asah/
+
+      - name: Verify build output
+        working-directory: starter-project-with-webpack
+        run: |
+          ls -la dist/
+          echo "Build files:"
+          find dist -type f
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
