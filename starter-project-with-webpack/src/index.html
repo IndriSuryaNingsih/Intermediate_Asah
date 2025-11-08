@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#4CAF50" />
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <title>Toko Belanja - Aplikasi Peta Toko</title>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-to-content">Lompat ke konten utama</a>
+    
+    <header role="banner">
+      <div class="main-header container">
+        <a class="brand-name" href="#/" aria-label="Beranda">Toko Belanja</a>
+
+        <nav id="navigation-drawer" class="navigation-drawer" role="navigation" aria-label="Navigasi utama">
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#/">Beranda</a></li>
+            <li><a href="#/favorites" id="favorites-link" style="display: none;">Favorit</a></li>
+            <li><a href="#/add-story" id="add-story-link">Tambah Toko</a></li>
+            <li><a href="#/login" id="login-link">Masuk</a></li>
+            <li><a href="#/register" id="register-link">Daftar</a></li>
+            <li><a href="#" id="logout-link" style="display: none;">Keluar</a></li>
+          </ul>
+        </nav>
+
+        <button 
+          id="drawer-button" 
+          class="drawer-button" 
+          aria-label="Buka menu navigasi"
+          aria-expanded="false"
+        >☰</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content" role="main" tabindex="-1"></main>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+APP_URL=https://your-deployment-url.com
+MAP_SERVICE_API_KEY=<api_key>
+
+# Link Deploy (WAJIB diisi)
+# Silakan ganti URL di bawah ini dengan link deploy aplikasi Anda
+# Contoh: https://your-username.github.io/starter-project-with-webpack
+# Atau: https://your-app-name.netlify.app
+# Atau: https://your-app-name.web.app
+DEPLOY_URL=https://your-deployment-url.com
+REPO_URL=https://github.com/IndriSuryaNingsih/Intermediate_Asah.git
