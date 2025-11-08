@@ -9,6 +9,7 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: process.env.NODE_ENV === 'production' ? '/Intermediate_Asah/' : '/',
   },
   module: {
     rules: [
